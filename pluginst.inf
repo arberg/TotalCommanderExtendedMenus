@@ -1,7 +1,7 @@
 [plugininstall]
-description=Extended Danish Menus for Total Commander 9.10 64bit under Windows 10 64bit (by petermad)
-descriptiondan=Udvidede Danske Menuer for Total Commander 9.10 64bit under Windows 10 64bit (af petermad)
+description=Extended Danish Menus for Total Commander 9.12 64bit under Windows 10 64bit (by petermad)
+descriptiondan=Udvidede Danske Menuer for Total Commander 9.12 64bit under Windows 10 64bit (af petermad)
 type=lng
 file=wcmd_win10amd64_1_eng.lng
 defaultdir=language
-version=9.12
+version=9.12.2
