@@ -1,0 +1,6 @@
+[plugininstall]
+description=1: Extended Icon Set (wcmicon_*.*). 2: Old Style Help (totalcmd.hlp). 3: External English Language Files (wcmd_eng.*). 4: English Standalone Lister (lister.exe). 5: Extended File Comments (descript.ion). 6: Folder Icon (desktop.ini).
+descriptiondan=1: Udvidet ikonsæt (wcmicon_*.*). 2: Old Style hjælp (totalcmd.hlp). 3: Eksterne engelske sprogfiler (wcmd_eng.*). 4: Engelsk standalone Lister (lister.exe). 5: Udvidede filkommentarer (descript.ion). 6: Mappeikon (desktop.ini).
+type=prg
+file=wcmicon_win10amd64.dll
+version=9.12

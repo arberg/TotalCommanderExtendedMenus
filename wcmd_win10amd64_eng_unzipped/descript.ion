@@ -1,0 +1,102 @@
+.. Total Commander Program Folder
+LANGUAGE Language files - Additional Totalcmd languages can be found on the Addons page on www.ghisler.com
+PLUGINS Plugin files
+TOTALCMD.EXE Total Commander - Main program
+TOTALCMD64.EXE Total Commander - Main program (64-bit version)
+TOTALCMD.EXE.MANIFEST Total Commander - Supports Windows XP themes, if the internal manifest resource is ignored
+TOTALCMD64.EXE.MANIFEST Total Commander - Supports Windows XP themes, if the internal manifest resource is ignored
+TOTALCMD.INC Total Commander - Index of internal commands for use with Menu, Button Bar, Start Menu, Keyboard Shortcuts and Alias's
+TOTALCMD.CHM Total Commander - Help file
+TOTALCMD.HLP Total Commander - Old Style Help file
+TOTALCMD.GID Total Commander - Old Style Help file part
+TOTALCMD.FTS Total Commander - Old Style Help file index
+WCMZIP32.DLL Application Extension - ZIP packer
+WCMZIP64.DLL Application Extension - ZIP packer
+CABRK.DLL Application Extension - CAB unpacker
+UNACEV2.DLL Application Extension - ACE unpacker
+UNRAR.DLL Application Extension - RAR unpacker
+UNRAR9X.DLL Application Extension - RAR unpacker for Windows 9x
+UNRAR64.DLL Application Extension - RAR unpacker
+TC7Z.DLL Application Extension - 7ZIP unpacker
+TC7ZIPIF.DLL Application Extension - Interface to access TC7Z.DLL
+TC7Z64.DLL Application Extension - 7ZIP unpacker
+TCUNZLIB.DLL Application Extension - Unpacking of thumbnails and FTP MODE Z
+TCUNZL64.DLL Application Extension - Unpacking of thumbnails and FTP MODE Z
+TCMDLZMA.DLL Application Extension - Unpacking of WinZIP12 LZMA compressed ZIP-files
+TCLZMA64.DLL Application Extension - Unpacking of WinZIP12 LZMA compressed ZIP-files
+FRERES32.DLL Application Extension - Gets free system resources under Windows 9x/ME
+SHARE_NT.EXE Helper program - Shows share/unshare dialog under Windows NT
+WC32TO16.EXE Helper program - Sets date/time of directories under Windows 9x/ME
+NOCLOSE.EXE Helper program - Keeps the window open for programs started with Shift+Enter
+NOCLOSE64.EXE Helper program - Keeps the window open for programs started with Shift+Enter
+TCMADMIN.EXE Helper program - Copies/deletes/creates folders/removes folders with administrator rights
+TCMADM64.EXE Helper program - Copies/deletes/creates folders/removes folders with administrator rights
+TCMDX32.EXE Helper program - 32-bit shell extension support for right click context menu
+TCMDX64.EXE Helper program - 64-bit shell extension support for right click context menu
+TcUsbRun.exe USB cable insert notification handler (run to activate/deactivate)
+SFXHEAD.SFX Header for self extracting ZIP archives
+CGLPT9X.VXD Parallel port driver for Windows 9x/ME
+CGLPTNT.SYS Parallel port driver for Windows NT/2000/XP
+CGLPT64.SYS Parallel port driver for Windows XP/Vista/7 X64
+TCUNINST.EXE Program for uninstalling or repairing Total Commander
+TCUNIN64.EXE Program for uninstalling or repairing Total Commander
+TCUNINST.WUL List of files that will be uninstalled by Total Commander
+TCUNIN64.WUL List of files that will be uninstalled by Total Commander
+WCUNINST.WUL List of files that will be uninstalled by Windows Commander (old)
+DEFAULT.BAR Total Commander Button Bar - Default bar
+DEFAULT.BR2 Total Commander Button Bar cache - Default bar
+VERTICAL.BAR Total Commander Button Bar - Default bar (vertical)
+VERTICAL.BR2 Total Commander Button Bar cache - Default bar (vertical)
+NO.BAR Total Commander Button Bar - Empty bar
+WCMICONS.DLL Total Commander Button Bar - Icons - Old style
+WCMICONS.INC Total Commander Button Bar - Index of icons
+WCICONEX.DLL Total Commander Button Bar - Icons (extended)
+WCICONEX.INC Total Commander Button Bar - Index of icons (extended)
+WCMICON2.DLL Total Commander Button Bar - Icons - New style
+REGISTER.RTF Total Commander - Order form
+REGISTER.WRI Total Commander - Order form (old)
+HISTORY.TXT Total Commander - History of all changes
+KEYBOARD.TXT Total Commander - Keyboard layout / Shortcuts
+README.TXT Total Commander - Readme file
+FILE_ID.DIZ Total Commander - Program description
+WINCMD.KEY Total Commander - Registration key
+TCMDKEY.ZIP Total Commander - Registration key
+USERCMD.INI Total Commander - User defined commands
+DESCRIPT.ION This file contains these descriptions! Use Ctrl+Z to change them
+PKPLUGIN.INI Common configuration file for Packer plugins
+LSPLUGIN.INI Common configuration file for Lister plugins
+FSPLUGIN.INI Common configuration file for File system plugins
+CONTPLUG.INI Common configuration file for Content plugins
+WINCMD.INI Total Commander - Configuration file for Main program
+WCX_FTP.INI Total Commander - Configuration file for FTP-program
+TCIGNORE.TXT Total Commander - List of ignored files/directories
+DESKTOP.INI Configuration file for this folder (folder icon) - the folder has to be write protected to see the icon
+SIZE!.TXT Information about changed program size
+tcmatch.dll External Quick Filter support
+tcmatch.tbl External Quick filter support (table)
+wcmd_tmp_tc.ini Temporary Total Commander ini file
+wcmd_tmp_ftp.ini Temporary Total Commander ini file
+winhlp32.exe Windows program for displaying .hlp files
+Everything.exe 'Everything' search tool
+Everything.lng 'Everything' language file
+Everything.ini 'Everything' configuration file
+
+wcmicon_win7%PROCESSOR_ARCHITECTURE%.dll Icons for Extended Menus (32bit & 64bit) (by petermad)
+wcmicon_win7amd64.dll Icon Index for Extended Menus (64bit) (by petermad)
+wcmicon_win7amd64.inc Icons for Extended Menus (64bit) (by petermad)
+wcmicon_win7x86.dll Icons for Extended Menus (32bit) (by petermad)
+wcmicon_win7x86.inc Icon Index for Extended Menus (32bit) (by petermad)
+wcmicon_win81%PROCESSOR_ARCHITECTURE%.dll Icons for Extended Menus (32bit & 64bit) (by petermad)
+wcmicon_win81amd64.dll Icon Index for Extended Menus (64bit) (by petermad)
+wcmicon_win81amd64.inc Icons for Extended Menus (64bit) (by petermad)
+wcmicon_win81x86.dll Icons for Extended Menus (32bit) (by petermad)
+wcmicon_win81x86.inc Icon Index for Extended Menus (32bit) (by petermad)
+wcmicon_win10%PROCESSOR_ARCHITECTURE%.dll Icons for Extended Menus (32bit & 64bit) (by petermad)
+wcmicon_win10amd64.dll Icon Index for Extended Menus (64bit) (by petermad)
+wcmicon_win10amd64.inc Icons for Extended Menus (64bit) (by petermad)
+wcmicon_win10x86.dll Icons for Extended Menus (32bit) (by petermad)
+wcmicon_win10x86.inc Icon Index for Extended Menus (32bit) (by petermad)
+wcmicon_win7.dll Icons for Extended Menus (32bit) (by petermad)
+wcmicon_win7.inc Icon Index for Extended Menus (32bit) (by petermad)
+wcmicon_win81.dll Icons for Extended Menus (32bit) (by petermad)
+wcmicon_win81.inc Icon Index for Extended Menus (32bit) (by petermad)
