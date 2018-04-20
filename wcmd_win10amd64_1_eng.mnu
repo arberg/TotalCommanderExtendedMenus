@@ -375,7 +375,7 @@ POPUP "&Commands"
     MENUITEM "Stop Loading of Fields in the &Background", 5514
   END_POPUP
   MENUITEM SEPARATOR
-  MENUITEM "Center &Panel Divider", 909
+  MENUITEM "Center Panel Divider", 909
   MENUITEM "Panel Divider &100% Towards Destination", 910
   MENUITEM "Vertical Button Bar On/Off", 2944
   MENUITEM "Vertical &Alignment", 305
@@ -407,6 +407,8 @@ POPUP "&Commands"
     MENUITEM SEPARATOR
     MENUITEM "&Show Command Line", 2910
   END_POPUP
+  MENUITEM "Windows &PowerShell", em_ext_powershellx64
+  MENUITEM "Windows PowerShell (Administrator)", em_ext_powershellx64_administrator
   MENUITEM "Comman&d Prompt Window...", 511
   MENUITEM "Command Prompt Window (Administrator)...", em_ext_cmdelevated
 END_POPUP
@@ -996,9 +998,9 @@ POPUP "Windows &10"
     MENUITEM "Microsoft Wi-Fi", em_ext_connectivitystore
   END_POPUP
   POPUP "Windows PowerShell"
-    MENUITEM "Windows PowerShell", em_ext_powershellx64
+    MENUITEM "Windows &PowerShell", em_ext_powershellx64
     MENUITEM "Windows PowerShell (x86)", em_ext_powershellx86
-    MENUITEM "Windows PowerShell ISE", em_ext_powershellisex64
+    MENUITEM "Windows PowerShell &ISE", em_ext_powershellisex64
     MENUITEM "Windows PowerShell ISE (x86)", em_ext_powershellisex86
   END_POPUP
   POPUP "Windows &Ease of Access"
