@@ -368,7 +368,7 @@ POPUP "&Commands"
   MENUITEM "Reread Source\tF2 / Ctrl+R", 540
   MENUITEM "Reload Selected Thum&bnails", 2918
   MENUITEM "Reload Icons in Button Bars and Main Menu", 2945
-  MENUITEM "Reload file in Quick View", 2946
+  MENUITEM "Reload file in Quic&k View", 2946
   POPUP "Custom Colum&ns"
     MENUITEM "Load 'On Demand' Fields for &All Files", 5512
     MENUITEM "Load 'On Demand' Fields for &Selected Files", 5513
@@ -378,12 +378,13 @@ POPUP "&Commands"
   MENUITEM "Center Panel Divider", 909
   MENUITEM "Panel Divider &100% Towards Destination", 910
   MENUITEM "Vertical Button Bar On/Off", 2944
-  MENUITEM "Vertical &Alignment", 305
+  MENUITEM "Vertical Ali&gnment", 305
   MENUITEM SEPARATOR
   MENUITEM "Ma&ximize Window", 2015
   MENUITEM "Minimi&ze Window\tShift+Esc", 2000
   MENUITEM "Re&store Window", 2016
   MENUITEM "Close Window (&Quit)\tAlt+F4", 24340
+  MENUITEM "Rest&art Total Commander...", em_ext_restartcommander
   POPUP "Run S&eparate Instance of..."
     MENUITEM "&Total Commander...", em_ext_newcommander
     MENUITEM "Total Commander as &Administrator...", em_ext_newcommander1
@@ -681,6 +682,7 @@ POPUP "F&olders"
     MENUITEM "&HomeGroup", em_ext_otherusers
     MENUITEM "U&ser Files", em_ext_userfiles
     MENUITEM "My Doc&uments", em_ext_documents
+    MENUITEM "Downloads", em_ext_downloads
     MENUITEM "This P&C", 2122
     MENUITEM "&Network", 2125
     MENUITEM "Networ&k (Workgroup)", em_ext_network_workgroup
@@ -864,6 +866,7 @@ POPUP "Windows &10"
       MENUITEM SEPARATOR
       MENUITEM "System", em_ext_ms-settings-display
       MENUITEM "Devices", em_ext_ms-settings-connecteddevices
+      MENUITEM "Phone", em_ext_ms-settings-mobile-devices
       MENUITEM "Network && Internet", em_ext_ms-settings-network-wifi
       MENUITEM "Personalization", em_ext_ms-settings-personalization-background
       MENUITEM "Apps", em_ext_ms-settings-appsfeatures
@@ -1030,28 +1033,28 @@ POPUP "Windows &10"
 END_POPUP
 
 POPUP "Misc."
-  MENUITEM "Syncroni&ze First Two Selected Folders/Archives (Separate Instance)...", em_ext_sync3
+  MENUITEM "&Make Directories in Opposite Panel with Same Name as File Under Cursor", em_ext_newdir
+  MENUITEM "M&ake Directories in Opposite Panel with Same Name + Extension as File Under Cursor", em_ext_newdir2
+  MENUITEM "&Copy Marked Files to Directory in Opposite Panel with Name as File Under Cursor *", em_ext_copyallnewdir
+  MENUITEM "Copy Marked &Files to Directory in Opposite Panel with Name + Extension as File Under Cursor *", em_ext_copyallnewdir2
+  MENUITEM "M&ove Marked Files to Directory in Opposite Panel with Name as File Under Cursor *", em_ext_moveallnewdir
+  MENUITEM "Mo&ve Marked Files to Directory in Opposite Panel with Name + Extension as File Under Cursor *", em_ext_moveallnewdir2
   MENUITEM SEPARATOR
-  MENUITEM "&Make Directory with Same Name as File Under Cursor in Opposite Panel *", em_ext_newdir
-  MENUITEM "M&ake Directory with Same Name + Extension as File Under Cursor in Opposite Panel *", em_ext_newdir2
-  MENUITEM "&Copy File Under Cursor to Directory with Same Name in Opposite Panel *", em_ext_copyonenewdir
-  MENUITEM "M&ove File Under Cursor to Directory with Same Name in Opposite Panel *", em_ext_moveonenewdir
-  MENUITEM "Copy Marked &Files to Directory with Name Under Cursor to Opposite Panel *", em_ext_copyallnewdir
-  MENUITEM "Mo&ve Marked Files to Directory with Name Under Cursor to Opposite Panel *", em_ext_moveallnewdir
+  MENUITEM "Copy th&e Content of File Under Cursor to Marked Files in Same Panel *", em_ext_copyonetomulti
+  MENUITEM "Cop&y the Name of File Under Cursor to Marked Files in Same Panel *", em_ext_copynametomulti
+  MENUITEM "S&wap the Content of Two Files in Same Panel *", em_ext_swapfilenames
   MENUITEM SEPARATOR
-  MENUITEM "Copy th&e Content of File Under Cursor to Marked Files *", em_ext_copyonetomulti
-  MENUITEM "S&wap the Content of Two Files *", em_ext_swapfilenames
+  MENUITEM "Copy Selected File&names to File SELECTEDFILES.txt in Current Folder", em_ext_copynamestofile1
+  MENUITEM "Copy Selected Filenames With Full &Path to File SELECTEDFILES.txt in Current Folder", em_ext_copynamestofile2
+  MENUITEM "Copy Selected Filenames Witho&ut Filetype to File SELECTEDFILES.txt in Current Folder", em_ext_copynamestofile3
   MENUITEM SEPARATOR
-  MENUITEM "Copy Selected File&names to File SELECTEDFILES.txt in Current Folder *", em_ext_copynamestofile1
-  MENUITEM "Copy Selected Filenames With Full &Path to File SELECTEDFILES.txt in Current Folder *", em_ext_copynamestofile2
-  MENUITEM "Copy Selected Filenames Witho&ut Filetype to File SELECTEDFILES.txt in Current Folder *", em_ext_copynamestofile3
+  MENUITEM "Make &Junction in Opposite Panel to FOLDER Under Cursor (Not on Network)", em_ext_junction
+  MENUITEM "Make &Symlink in Opposite Panel to FOLDER Under Cursor", em_ext_symlinkd
+  MENUITEM "Make S&ymlink in Opposite Panel to FILE Under Cursor", em_ext_symlink
+  MENUITEM "Make &Hardlink in Opposite Panel to FILE Under Cursor (Only on Same Drive)", em_ext_hardlink
   MENUITEM SEPARATOR
-  MENUITEM "Make &Junction in Opposite Panel to FOLDER Under Cursor (Not on Network) *", em_ext_junction
-  MENUITEM "Make &Symlink in Opposite Panel to FOLDER Under Cursor *", em_ext_symlinkd
-  MENUITEM "Make S&ymlink in Opposite Panel to FILE Under Cursor *", em_ext_symlink
-  MENUITEM "Make &Hardlink in Opposite Panel to FILE Under Cursor (Only on Same Drive) *", em_ext_hardlink
-  MENUITEM SEPARATOR
-  MENUITEM "* = uses DOS and might not work under all Operating Systems", em_ext_dummy
+  MENUITEM "All these uses DOS and might not work under all Operating Systems", em_ext_dummy
+  MENUITEM "* = don't use with hidden / system files", em_ext_dummy
 END_POPUP
 
 HELP_BREAK

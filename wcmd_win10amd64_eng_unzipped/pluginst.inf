@@ -3,4 +3,4 @@ description=1: Extended Icon Set (wcmicon_*.*). 2: Old Style Help (totalcmd.hlp)
 descriptiondan=1: Udvidet ikonsæt (wcmicon_*.*). 2: Old Style hjælp (totalcmd.hlp). 3: Eksterne engelske sprogfiler (wcmd_eng.*). 4: Engelsk standalone Lister (lister.exe). 5: Udvidede filkommentarer (descript.ion). 6: Mappeikon (desktop.ini).
 type=prg
 file=wcmicon_win10amd64.dll
-version=9.12
+version=9.12.2
