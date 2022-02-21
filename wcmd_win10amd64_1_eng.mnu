@@ -408,8 +408,10 @@ POPUP "&Commands"
     MENUITEM SEPARATOR
     MENUITEM "&Show Command Line", 2910
   END_POPUP
-  MENUITEM "Windows &PowerShell", em_ext_powershellx64
-  MENUITEM "Windows PowerShell (Administrator)", em_ext_powershellx64_administrator
+  MENUITEM "&PowerShell Core", em_ext_powershell_core
+  MENUITEM "PowerShell Core (&Administrator)", em_ext_powershell_core_administrator
+  MENUITEM "Windows &5 PowerShell", em_ext_powershellx64
+  MENUITEM "Windows 5 PowerShell (Administrator)", em_ext_powershell5_administratorx64
   MENUITEM "Comman&d Prompt Window...", 511
   MENUITEM "Command Prompt Window (Administrator)...", em_ext_cmdelevated
 END_POPUP
@@ -739,7 +741,10 @@ POPUP "F&olders"
     MENUITEM "        S&tartup", em_ext_startup
     MENUITEM "&Quick Launch", em_ext_quicklaunch
   END_POPUP
-  POPUP "&Common"
+  POPUP "&Tower"
+    MENUITEM "&Download", em_ext_folders_tower_download
+  END_POPUP
+  POPUP "&All Users"
     MENUITEM "User Pr&ofile", em_ext_public
     MENUITEM "&Desktop", em_ext_common_desktopdirectory
     MENUITEM "Shared Doc&uments", em_ext_common_documents
@@ -750,9 +755,10 @@ POPUP "F&olders"
     MENUITEM "    P&rograms", em_ext_common_programs
     MENUITEM "        S&tartup", em_ext_common_startup
   END_POPUP
-  POPUP "&Total Commander"
+  POPUP "Total &Commander"
     MENUITEM "&Program", em_ext_commanderpath
     MENUITEM "&Configuration", em_ext_commandercfg
+    MENUITEM "&Menu Configuration", em_ext_commandercfgmenu
     MENUITEM "&Data", em_ext_commanderdata
     MENUITEM "Data (&Local)", em_ext_commanderlocaldata
   END_POPUP
