@@ -1,5 +1,5 @@
 
-Extended English Menus for Total Commander 9.12 64bit under Windows 10 64bit (by petermad)
+Extended English Menus for Total Commander 10.00 64bit under Windows 10 64bit (by petermad)
 
 Contents:
 wcmd_win10amd64_1_eng.mnu
@@ -30,8 +30,8 @@ Norton Commander).
 wcmd_win10amd64_1_eng.lng and wcmd_win10amd64_2_eng.lng are (almost) identical
 to TC's internal dialog, and the use of these two files makes it easy to change
 language and menu at the same time with just one click - simply just choose
-"English with Extended Menu I for TC 9.12 64bit under Windows 10 64bit" or
-"English with Extended Menu II for TC 9.12 64bit under Windows 10 64bit" in
+"English with Extended Menu I for TC 10.00 64bit under Windows 10 64bit" or
+"English with Extended Menu II for TC 10.00 64bit under Windows 10 64bit" in
 the language dialog.
 
 wcmd_win10amd64_1_eng.inc and wcmd_win10amd64_2_eng.inc are slightly improved
@@ -50,13 +50,15 @@ switch between the button bars using the menu item "Windows 10".
 wcmd_win10amd64_eng.zip is a self installing archive containing several Addons
 for Total Commander:
 
-1: Extended Icon Set for TC (with 48x48 icons) (wcmicon_win10amd64.dll, wcmicon_win10amd64.inc).
+1: Extended Icon Set for TC (with 48x48 icons) (wcmicon_win10amd64.dll,
+   wcmicon_win10amd64.inc).
 2: Old Style Help for TC (totalcmd.hlp, winhlp32.exe).
-3: English Standalone Lister (lister.exe, lister.exe.manifest).
-4: Extended File Comments for TC (descript.ion).
-5: Folder Icon for TC (desktop.ini). Write protect TC's program folder to see
+3: Dark Help (totalcmddark.chm, wcmd_deudark.chm).
+4: English Standalone Lister (lister.exe, lister.exe.manifest).
+5: Extended File Comments for TC (descript.ion).
+6: Folder Icon for TC (desktop.ini). Write protect TC's program folder to see
    the icon.
-6: Official English language files (wcmd_eng.lng, wcmd_eng.mnu and
+7: Official English language files (wcmd_eng.lng, wcmd_eng.mnu and
    wcmd_eng.inc).
 
 You can install this package from the Menu: "Help" -> "Install Addons for
@@ -96,20 +98,5 @@ RedCell: http://www.totalcmd.net/plugring/wlx_redcell.html
 SWFView: http://www.totalcmd.net/plugring/swfview.html
 AKFont Viewer: http://totalcmd.net/plugring/akfont.html | https://fontmassive.com/akfont.php
 Syn2: http://www.totalcmd.net/plugring/syn2.html | http://atorg.net.ru/temp/beta/syn2.rar | http://sepa.spb.ru/?syn
+CudaLister: https://totalcmd.net/plugring/CudaLister.html
 DirSizeCalc Charts: http://totalcmd.net/plugring/dirsizecalc_charts.html
-
-
-The menus are prepared for the following Lister plugins in case they should
-come in 64bit versions - just remove the semicolons in front of the appropriate
-lines in wcmd_win10amd64_1_eng.mnu and wcmd_win10amd64_2_eng.mnu:
-
-IMGView: http://www.totalcmd.net/plugring/imgv.html
-Office: http://www.totalcmd.net/plugring/office.html
-Listdoc: http://www.totalcmd.net/plugring/wordfileviewer.html
-Excellence: http://www.totalcmd.net/plugring/xlsview.html | http://sites.google.com/site/ivansdump/excellence
-IEView: http://www.totalcmd.net/plugring/ieview.html 
-FlashView: http://www.totalcmd.net/plugring/flashview.html
-SWF Lister Lite: http://www.totalcmd.net/plugring/swf_lister_lite.html
-TTFViewer: http://www.totalcmd.net/plugring/TTFviewer.html
-SynPlus: http://www.totalcmd.net/plugring/synplus.html
-VisualDirSize: http://www.totalcmd.net/plugring/visdirsize.html | http://members.multimania.co.uk/kajoj100/
