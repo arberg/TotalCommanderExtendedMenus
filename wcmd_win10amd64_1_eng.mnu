@@ -766,19 +766,221 @@ POPUP "&Preferences"
   MENUITEM "&Misc...", 495
 END_POPUP
 
-POPUP "F&olders"
+
+POPUP "&Directories"
+  POPUP "&Personal"
+    MENUITEM "User Profile", em_ext_userprofile
+    MENUITEM "Deskt&op", em_ext_mydesktop
+    MENUITEM "Doc&uments", em_ext_mydocuments
+    MENUITEM "&Documents/Alex", em_ext_mydocuments_alex
+    MENUITEM "Dr&opbox", em_ext_dropbox
+    MENUITEM "O&neDrive", em_ext_myonedrive
+    MENUITEM "&Current Tasks", em_ext_onedrive_current_tasks
+    MENUITEM "Documents > &Path of Exile (Users > Alex > My Games)", em_ext_documents_mygames_poe
+    MENUITEM "Li&braries", em_ext_mylibraries
+    MENUITEM "&Music", em_ext_mymusic
+    MENUITEM "&Pictures", em_ext_mypictures
+    MENUITEM "Pictures > &Screenshots", em_ext_mypictures_screenshots
+    MENUITEM "&Videos", em_ext_myvideo
+    MENUITEM "&Videos Captures", em_ext_myvideo_captures
+    MENUITEM "Do&wnloads", em_ext_mydownloads
+    MENUITEM "&Contacts", em_ext_mycontacts
+    MENUITEM "L&inks", em_ext_mylinks
+    MENUITEM "&Favorites", em_ext_myfavorites
+    MENUITEM "R&ecent", em_ext_myrecent
+    MENUITEM "Searc&hes", em_ext_mysavedsearches
+    MENUITEM "&Application Data", em_ext_appdata
+    MENUITEM "Application Data (&Local)", em_ext_local_appdata
+    MENUITEM "&ssh config (D:\Users\Alex\.ssh)", em_ext_win_user_ssh
+    MENUITEM SEPARATOR
+    MENUITEM "&Start Menu", em_ext_startmenu
+    MENUITEM "    P&rograms", em_ext_programs
+    MENUITEM "        S&tartup", em_ext_startup
+    MENUITEM "&Quick Launch", em_ext_quicklaunch
+  END_POPUP
+  POPUP "&Win"
+    MENUITEM "&Temp", em_ext_win_temp
+    MENUITEM "T&ools C:", em_ext_win_c_tools
+    MENUITEM "&Calibre Library (D:\Tools)", em_ext_win_d_tools_calibre
+    MENUITEM "Win &Ubuntu Home", em_ext_win_ubuntu_home
+  END_POPUP
+  POPUP "&Games"
+    MENUITEM "&Minecraft Instances (Games > Curse)", em_ext_games_minecraft_instances
+    MENUITEM "&Minecraft - All the Mods 6 - ATM6 - 1.16.5", em_ext_games_minecraft_atm
+    MENUITEM "&Path of Exile > Logs (D:\Games)", em_ext_games_poe_logs
+    MENUITEM "PoE-Alex-&AutoHotkey", em_ext_games_poe_autohotkey
+    MENUITEM "&Last Epoch > Filters (and saves)", em_ext_games_last_epoch_filters
+  END_POPUP
+
+  MENUITEM SEPARATOR
+
+  POPUP "Tower &Documents"
+    MENUITEM "Do&wnload", em_ext_folders_tower_download
+    MENUITEM "&Scan n:", em_ext_folders_tower_scan
+    MENUITEM "&Husholdning Kvitteringer", em_ext_folders_tower_husholdning_kvitteringer
+    MENUITEM "&Husholdning dokumenter", em_ext_folders_tower_husholdning
+    MENUITEM "&Huskholdning > Bank > BankNorwegian > Kreditkort", em_ext_folders_tower_husholdning_banknorwegian
+  END_POPUP
+
+  POPUP "Tower &Media"
+    MENUITEM "&Film", em_ext_folders_tower_film
+    MENUITEM "Film > &New", em_ext_folders_tower_film_new
+    MENUITEM "Film > &Online", em_ext_folders_tower_film_online
+    MENUITEM "Film > Online > &Vox Day DarkStream", em_ext_folders_tower_film_online_vox_day
+    MENUITEM "&Hjemmevideo", em_ext_folders_tower_hjemmevideo
+    MENUITEM "&Pics", em_ext_folders_tower_pics
+    MENUITEM "Pics&Org", em_ext_folders_tower_pics_org_new
+    MENUITEM "&Musik", em_ext_folders_tower_musik
+  END_POPUP
+
+  POPUP "Tower S&ync"
+    MENUITEM "Sync", em_ext_folders_tower_sync
+    MENUITEM "Sync > Alex&MediaSync", em_ext_folders_tower_AlexMediaSync
+    MENUITEM "Sync > Video > &AlexVideoSync", em_ext_folders_tower_alexVideoSync
+    MENUITEM "Sync > Video > AlexVideoSync > &Vox Day", em_ext_folders_tower_sync_alexVideo_vox_day
+  END_POPUP
+
+  POPUP "&Tower - Unraid and win shares"
+    MENUITEM "&Tower Shares", em_ext_folders_tower_rootshares
+    MENUITEM "&Flash > bin", em_ext_folders_tower_flash_bin
+    MENUITEM "Flash > &User Script Plugin", em_ext_folders_tower_flash_userscripts
+    MENUITEM SEPARATOR
+    MENUITEM "&Minecraft Tower", em_ext_folders_tower_minecraft
+    MENUITEM "&OpenHAB Conf (in Docker)", em_ext_folders_tower_openhab_conf
+    MENUITEM SEPARATOR
+    MENUITEM "Storage > &Install", em_ext_folders_tower_install
+    MENUITEM "&WindowsBackup > WinData > UserAlex", em_ext_folders_tower_windowsBackup_windata_alex
+    MENUITEM SEPARATOR
+    MENUITEM "&Lisa Kreativ", em_ext_folders_tower_lisa_Kreativitet
+    MENUITEM "&Lisa Kreativ Malebog", em_ext_folders_tower_lisa_kreative_malebog
+    MENUITEM "&Lisa Kreativ Malebog Download Print", em_ext_folders_tower_kreative_malebog_downloadprint
+    MENUITEM "&Lisa Kreativ - Egne tegninger", em_ext_folders_tower_lisa_Kreativitet_tegninger
+  END_POPUP
+
+  MENUITEM SEPARATOR
+
+  POPUP "&BNR"
+    MENUITEM "&SingleDevice (BNR)", em_ext_folders_bnr_BnrSingleDevice  
+    MENUITEM "&y Sync (BNR)", em_ext_folders_bnrSync
+    MENUITEM "&Documents (BNR)", em_ext_folders_bnr_documents
+    MENUITEM "&Tools (BNR)", em_ext_folders_bnr_tools
+    MENUITEM "docker&Elk", em_ext_folders_bnr_project_dockerElk
+    MENUITEM "&ott-master", em_ext_folders_bnr_project_ottmaster
+    MENUITEM "&internet-booking", em_ext_folders_bnr_project_internet_booking
+    MENUITEM "&android-booking", em_ext_folders_bnr_project_android_booking
+    MENUITEM "&Releases", em_ext_folders_bnr_releases
+    MENUITEM "&server-installation", em_ext_folders_bnr_project_server_installation
+    MENUITEM "&projects", em_ext_folders_bnr_projects
+  END_POPUP
+
+  POPUP "&Language Development and FourPixels"
+    MENUITEM "AirAttack new androidStudio", em_ext_folders_languageDev_fp_airattack
+    MENUITEM "&fpMaster > AndroidStudio", em_ext_folders_languageDev_fpMaster
+    MENUITEM "Fourpixels &Releases", em_ext_folders_languageDev_releases
+    MENUITEM "&EclipseGitMaster (svn)", em_ext_folders_languageDev_eclipseGitMaster
+    MENUITEM "EclipseGitMaster (svn) > &AdminStuff", em_ext_folders_languageDev_AdminStuff
+    MENUITEM SEPARATOR
+    MENUITEM "&GitHub", em_ext_folders_languageDev_github
+    MENUITEM "&GitHub > Private", em_ext_folders_languageDev_github_private
+    MENUITEM "&Excel Functions (>GitHub > Private)", em_ext_folders_languageDev_github_private_excel
+    MENUITEM SEPARATOR
+    MENUITEM "&Tools > Ammonite (install)", em_ext_folders_languageDev_ammonite_install
+    MENUITEM "&Ammonite Scripts", em_ext_folders_languageDev_ammonite_scripts
+    MENUITEM "&Kotlin Scripts", em_ext_folders_languageDev_scripts_kotlin
+    MENUITEM "Powershell &Functions", em_ext_folders_languageDev_functions_powershell
+    MENUITEM "&PowerShell Tower Sync", em_ext_folders_s_powershell_sync
+    MENUITEM "Run&AsSpc", em_ext_folders_languageDev_RunAsSpc
+    MENUITEM "Set&up: ToolsAdmin", em_ext_folders_languageDev_scripts_setup
+    MENUITEM "&Scripts", em_ext_folders_languageDev_scripts
+  END_POPUP
+
+  POPUP "&Selskab Tower"
+    MENUITEM "&Consultants 2021 @NyeBilag", em_ext_folders_selskab_consultants_bilag_last_year
+    MENUITEM "&Software 2021 @NyeBilag", em_ext_folders_selskab_software_bilag_last_year
+    MENUITEM "&Konti - Integralis Bankkonti", em_ext_folders_selskab_bank_accounts
+    MENUITEM "&Software 2022 @NyeBilag", em_ext_folders_selskab_software_bilag_next_year
+    MENUITEM "&Consultants 2022 @NyeBilag", em_ext_folders_selskab_consultants_bilag_next_year
+  END_POPUP
+
+  POPUP "&Z Selskab  - Muaddib"
+    MENUITEM "&Consultants 2021", em_ext_folders_muaddib_selskab_consultants_bilag_last_year
+    MENUITEM "&Software 2021", em_ext_folders_muaddib_selskab_software_bilag_last_year
+    MENUITEM "&Fourpixels Strianol Bilag 2021", em_ext_folders_muaddib_selskab_strianol_invoices
+    MENUITEM "&Konti - Integralis Bankkonti", em_ext_folders_selskab_bank_accounts
+    MENUITEM "&Invoices / Root - Consultants", em_ext_folders_selskab_consultants_root
+    MENUITEM "&Invoices / Root - Software", em_ext_folders_selskab_software_root
+    MENUITEM "&Strianol Limited - Selskab Muaddib med KYC", em_ext_folders_selskab_strianol_kyc
+    MENUITEM "&Consultants 2022", em_ext_folders_muaddib_selskab_consultants_bilag_next_year
+    MENUITEM "&Software 2022", em_ext_folders_muaddib_selskab_software_bilag_next_year
+  END_POPUP
+
+  MENUITEM SEPARATOR
+
+  POPUP "&External Connections"
+    MENUITEM "&Secure FTP Connections", em_ext_folders_external_connections
+    MENUITEM "&MTP - Device", em_ext_folders_external_mtp
+    MENUITEM "&Officejet Pro X476dw Printer", em_ext_folders_external_printer
+    MENUITEM "&SSH: Tower > Alex", em_ext_folders_external_tower_ssh
+    MENUITEM "&Registry: User FileExtensions", em_ext_folders_external_registry_file_extensions
+    MENUITEM "&PI > /var/log", em_ext_folders_external_raspberrypi_varlog
+  END_POPUP
+
+  POPUP "&Home Network"
+    MENUITEM "&UbuntuVm > alex", em_ext_folders_external_home_alex
+    MENUITEM "&Pil > Minecraft Instances", em_ext_folders_external_home_pil_minecraft
+    MENUITEM "&Nanite > Minecraft Instances", em_ext_folders_external_home_nanite_minecraft
+    MENUITEM "&LenovoX1 > Minecraft Instances", em_ext_folders_external_home_lenovox1_minecraft
+    MENUITEM "&Tower @root", em_ext_folders_external_home_tower_root
+    MENUITEM "&Tower @alex", em_ext_folders_external_home_tower_alex
+    MENUITEM "&pberg > Alex", em_ext_folders_external_home_pberg
+    MENUITEM "&UnRaidBackup - Tower2", em_ext_folders_external_home_unraidbackup
+  END_POPUP
+
+  POPUP "Clo&ud Drives"
+    MENUITEM "&OneDrive Alex > duplicatiAlex", em_ext_folders_external_cloud_alex
+    MENUITEM "&OneDrive Lisa > duplicati", em_ext_folders_external_cloud_lisa
+  END_POPUP
+
+  POPUP "BN&R Direct"
+    MENUITEM "&OsloWeb @wildfly > /var/log/wildfly", em_ext_folders_external_bnr_wildfly
+    MENUITEM "&OsloWeb @ott > internet_bookings", em_ext_folders_external_bnr_osloweb_ott
+    MENUITEM "&OsloWeb @root > /opt", em_ext_folders_external_bnr_osloweb_root
+    MENUITEM "&StavangerA @ott > internet_bookings", em_ext_folders_external_bnr_stavangera_ott
+    MENUITEM "&StavangerB @ott > internet_bookings", em_ext_folders_external_bnr_stavangerb_ott
+    MENUITEM "&GøteborgA @ott > internet_bookings", em_ext_folders_external_bnr_goteborga_ott
+    MENUITEM "&GøteborgB @ott > internet_bookings", em_ext_folders_external_bnr_goteborgb_ott
+    MENUITEM "&AarhusA @ott > internet_bookings", em_ext_folders_external_bnr_aarhusa_ott
+    MENUITEM "&BnrLinuxB @ott > internet-bookings/logs", em_ext_folders_external_bnr_bnrlinuxb_ott
+    MENUITEM "&BnrLinuxB @wildfly > internet_bookings", em_ext_folders_external_bnr_bnrlinuxb_wildfly
+    MENUITEM "&BnrLinuxB @ROOT > /opt", em_ext_folders_external_bnr_bnrlinuxb_root
+    MENUITEM "&OTT-C > /opt", em_ext_folders_external_bnr_bnrlinuxc_root
+    MENUITEM "&Backupserver @ROOT > /opt", em_ext_folders_external_bnr_backupserver_root
+    MENUITEM "&Backupserver @ROOT > /backup/logs", em_ext_folders_external_bnr_backupserver_logs
+    MENUITEM "&Backupserver @app > ~app/dockerElk", em_ext_folders_external_bnr_backupserver_dockerelk
+    MENUITEM "&Backupserver @app > ~app/bin/logs", em_ext_folders_external_bnr_backupserver_app_bin_logs
+    MENUITEM "&Buildserver @app > ~app/dockerElk", em_ext_folders_external_bnr_buildserver_app
+    MENUITEM "&Buildserver @ROOT > /opt", em_ext_folders_external_bnr_buildserver_root
+    MENUITEM "&Buildserver @ott > internet_bookings", em_ext_folders_external_bnr_buildserver_ott
+    MENUITEM "&BNRlinuxB @ott", em_ext_folders_external_bnr_bnrlinuxb_ott
+    MENUITEM "&AlexVision", em_ext_folders_external_bnr_alexvision_ssh
+    MENUITEM "&AlexVision > BNR fælles", em_ext_folders_external_bnr_alexvision_google_drive_bnrfaelles
+    MENUITEM "&Releases Android", em_ext_folders_external_bnr_backupserver_root_backup_releases
+  END_POPUP
+
+  MENUITEM SEPARATOR
+
   POPUP "&Virtual"
     MENUITEM "&Quick Access", em_ext_quickaccess
+    MENUITEM "U&ser Files", em_ext_userfiles
     MENUITEM "&Desktop", 2121
+    MENUITEM "Downloads", em_ext_downloads
     MENUITEM "&Libraries", em_ext_libraries
     MENUITEM "&HomeGroup", em_ext_otherusers
-    MENUITEM "U&ser Files", em_ext_userfiles
     MENUITEM "My Doc&uments", em_ext_documents
-    MENUITEM "Downloads", em_ext_downloads
+    MENUITEM "OneDrive", em_ext_onedrivefolder
     MENUITEM "This P&C", 2122
     MENUITEM "&Network", 2125
     MENUITEM "Networ&k (Workgroup)", em_ext_network_workgroup
-    MENUITEM "OneDrive", em_ext_onedrivefolder
     MENUITEM "Con&trol Panel (Categories)", em_ext_controlpanelhome
     MENUITEM "Recycle &Bin", 2127
     MENUITEM SEPARATOR
@@ -796,7 +998,18 @@ POPUP "F&olders"
     MENUITEM "L&inks", em_ext_links
     MENUITEM "&Games", em_ext_gamefolder
   END_POPUP
-  POPUP "&System"
+  POPUP "&All Users"
+    MENUITEM "User Pr&ofile", em_ext_public
+    MENUITEM "&Desktop", em_ext_common_desktopdirectory
+    MENUITEM "Shared Doc&uments", em_ext_common_documents
+    MENUITEM "Shared &Pictures", em_ext_common_pictures
+    MENUITEM "&Application Data", em_ext_common_appdata
+    MENUITEM SEPARATOR
+    MENUITEM "&Start Menu", em_ext_common_startmenu
+    MENUITEM "    P&rograms", em_ext_common_programs
+    MENUITEM "        S&tartup", em_ext_common_startup
+  END_POPUP
+  POPUP "System - &x"
     MENUITEM "T&emporary Files (TEMP)", em_ext_temp
     MENUITEM "&Windows", em_ext_systemroot
     MENUITEM SEPARATOR
@@ -810,50 +1023,14 @@ POPUP "F&olders"
     MENUITEM SEPARATOR
     MENUITEM "&Fonts (Physical)", em_ext_fontfiles
   END_POPUP
-  POPUP "&Personal"
-    MENUITEM "User Pr&ofile", em_ext_userprofile
-    MENUITEM "&Desktop", em_ext_mydesktop
-    MENUITEM "Doc&uments", em_ext_mydocuments
-    MENUITEM "Li&braries", em_ext_mylibraries
-    MENUITEM "&Pictures", em_ext_mypictures
-    MENUITEM "&Music", em_ext_mymusic
-    MENUITEM "&Videos", em_ext_myvideo
-    MENUITEM "Do&wnloads", em_ext_mydownloads
-    MENUITEM "&Contacts", em_ext_mycontacts
-    MENUITEM "L&inks", em_ext_mylinks
-    MENUITEM "&Favorites", em_ext_myfavorites
-    MENUITEM "R&ecent", em_ext_myrecent
-    MENUITEM "Searc&hes", em_ext_mysavedsearches
-    MENUITEM "O&neDrive", em_ext_myonedrive
-    MENUITEM "&Application Data", em_ext_appdata
-    MENUITEM "Application Data (&Local)", em_ext_local_appdata
-    MENUITEM SEPARATOR
-    MENUITEM "&Start Menu", em_ext_startmenu
-    MENUITEM "    P&rograms", em_ext_programs
-    MENUITEM "        S&tartup", em_ext_startup
-    MENUITEM "&Quick Launch", em_ext_quicklaunch
-  END_POPUP
-  POPUP "&Tower"
-    MENUITEM "&Download", em_ext_folders_tower_download
-  END_POPUP
-  POPUP "&All Users"
-    MENUITEM "User Pr&ofile", em_ext_public
-    MENUITEM "&Desktop", em_ext_common_desktopdirectory
-    MENUITEM "Shared Doc&uments", em_ext_common_documents
-    MENUITEM "Shared &Pictures", em_ext_common_pictures
-    MENUITEM "&Application Data", em_ext_common_appdata
-    MENUITEM SEPARATOR
-    MENUITEM "&Start Menu", em_ext_common_startmenu
-    MENUITEM "    P&rograms", em_ext_common_programs
-    MENUITEM "        S&tartup", em_ext_common_startup
-  END_POPUP
   POPUP "Total &Commander"
     MENUITEM "&Program", em_ext_commanderpath
     MENUITEM "&Configuration", em_ext_commandercfg
-    MENUITEM "&Menu Configuration", em_ext_commandercfgmenu
+    MENUITEM "&Menu Configuration", em_ext_folders_commandercfgmenu_scripts
     MENUITEM "&Data", em_ext_commanderdata
     MENUITEM "Data (&Local)", em_ext_commanderlocaldata
   END_POPUP
+
 END_POPUP
 
 STARTMENU
